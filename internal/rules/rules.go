@@ -46,6 +46,7 @@ func Base() Set {
 		},
 		Marketplace: []Rule{
 			ReservedMarketplaceName,
+			DuplicateSourceTarget,
 			ImpersonationPattern,
 			DuplicatePluginNames,
 		},
